@@ -1,20 +1,19 @@
-#include<stdio.h>
-
-/**
- * main = Entry point
- *
- * Description : program that print  "Programming is like building a multilingual puzzle" with puts function
- *
- * return : always 0 (success)
- *
+/*
+ * File: 4-puts.c
+ * Auth: Bertrand Kwizera <alxschool.com>
  */
 
+#include <stdio.h>
+
+/**
+ * main - Prints "Programming is like building a multilingual
+ *                puzzle, followed by a new line.
+ *
+ * Return: Always 0.
+ */
 int main(void)
-
 {
-  
-          puts("\"Programming is like building a multilingual puzzle");
+	puts("\"Programming is like building a multilingual puzzle");
 
-          return (0);
-  
+	return (0);
 }
