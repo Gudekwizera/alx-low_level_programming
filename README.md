@@ -1,1 +1,1 @@
-In this project we are going through the basics of c-programming
+0x07-pointers_arrays_strings
