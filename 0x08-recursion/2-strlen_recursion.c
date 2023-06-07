@@ -6,6 +6,7 @@
  * @s: pointer to string to calculate it's length
  * Return: success
  */
+
 int _strlen_recursion(char *s)
 {
 	int count;
@@ -14,7 +15,7 @@ int _strlen_recursion(char *s)
 	{
 		return (0);
 	}
-	else 
-	       	count = 1;
+	else
+		count = 1;
 	return (count + _strlen_recursion(s + 1));
 }
