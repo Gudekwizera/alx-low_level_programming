@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
 /**
  * create_array - create an arry of size with char c
  * @size: unsigned int type
@@ -11,13 +12,12 @@
 
 char *create_array(unsigned int size, char c)
 {
-	int *x;
+	char *x;
 	unsigned int i;
 
 	if (size == 0)
 	{
 		return (NULL);
-
 	}
 
 	x = malloc((size) * sizeof(char));
@@ -25,7 +25,6 @@ char *create_array(unsigned int size, char c)
 	{
 		return (NULL);
 	}
-
 	i = 0;
 	while (i < size)
 	{
@@ -34,7 +33,4 @@ char *create_array(unsigned int size, char c)
 	}
 	x[i] = '\0';
 	return (x);
-
-	
-
 }
